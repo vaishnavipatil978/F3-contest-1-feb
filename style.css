@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+  }
+
+
+  /* Navbar style */
+  #navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  } 
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  #HomePage {
+    padding-right: 1rem;
+  }
+
+
+  
+  /* Product style */
+  .product-container { /*html element */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+              /* these elements will be created in js*/
+  .product {
+    border: 1px solid black;
+    width: 20%;
+    margin: 1rem;
+  }
+  
+  .product-font {
+    padding-left: 1rem;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: fit;
+  }
